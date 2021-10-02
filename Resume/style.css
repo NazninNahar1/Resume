@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing: bordrder-box;
+list-style: none;
+font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+background: linear-gradient( to right, #3525af,#9153c9);
+
+}
+.resume{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+.left{
+    background: #292b1f;
+    width: 250px;
+    padding: 0 20px;
+
+}
+.right{
+    width: calc(100%-250px);
+}
+.left .image_holder{
+    text-align: center;
+    padding: 20px 0;
+
+}
+.left .image_holder img{
+    width: 200px;
+    height:250px;
+    border-radius: 30px;
+}
+.pb{
+    padding-bottom: 2;
+}
+.title{
+    font-size: 24px;
+    font-weight:700;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    padding-bottom:10px;
+    color:#4934ef;
+    position: relative;
+    text-align:right;
+    margin-bottom: 15px;
+
+}
+.title:before{
+    content: " ";
+    position: absolute;
+    top:35;
+    right:0;
+    width:50px;
+    height: 3px;
+    background: #4934e7;
+
+}
+.left .icon{
+    font-size: 20px;
+    
+   color: #fff;
+}
+.left .text{
+    color:#9153c9;
+    font-size: 13;
+  
+}
+.contact .li_wrap{
+    display: flex;
+    align-items:center;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.contact .li_wrap .icon{
+width: 30px;
+height: 30px;
+background-color: #fff;
+border-radius: 15px;
+display:flex;
+align-items: center;
+justify-content: center;
+    
+}
+.contact .li_wrap .text{
+
+    width: calc(100%-50px);
+    color:#fff;
+
+}
+.Skills ul,
+.hobbies ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.Skills .li_wrap,
+.hobbies .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header{
+    background: #292b1f;
+    padding: 15px 30px;
+    color:#fff;
+    height:97.5% ;
+
+}
+.header .about{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+
+ul.a {
+    list-style-type: circle !important;
+}
+
+ul.a li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
